@@ -14,4 +14,8 @@ class Dog
   def self.all
     @all
   end
+
+  def self.count
+    @all.length
+  end
 end
