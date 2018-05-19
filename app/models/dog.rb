@@ -16,7 +16,7 @@ class Dog
   end
 
   def count
-    binding.pry
-    @all.length
+    # binding.pry
+    self.all.length
   end
 end
