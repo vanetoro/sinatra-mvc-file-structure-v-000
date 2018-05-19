@@ -5,9 +5,9 @@ class Dog
 
   def initialize(name, breed, age)
     # binding.pry
-    @name = :name
-    @breed = :breed,
-    @age = :breed,
+    @name = name
+    @breed = breed,
+    @age = breed,
     @@all << self
   end
 
